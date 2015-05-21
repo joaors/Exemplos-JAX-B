@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-9"?>
+<pedidos>
+	<pedido>
+		<numero>001</numero>
+		<cliente>
+			<nome>Joao Max</nome>
+			<codigo>001</codigo>
+		</cliente>
+		<itens>
+			<item>
+				<produto>
+					<codigo>001</codigo>
+					<descricao>Gelatina</descricao>
+				</produto>
+				<preco>12.25</preco>
+				<qtde>10</qtde>
+			</item>
+		</itens>
+	</pedido>
+	<pedido>
+		<numero>002</numero>
+		<cliente>
+			<nome>Joao Rodrigo</nome>
+			<codigo>202</codigo>
+		</cliente>
+		<itens>
+			<item>
+				<produto>
+					<codigo>002</codigo>
+					<descricao>Frigideira</descricao>
+				</produto>
+				<preco>49.95</preco>
+				<qtde>1</qtde>
+			</item>
+			<item>
+				<produto>
+					<codigo>003</codigo>
+					<descricao>Big Bob</descricao>
+				</produto>
+				<preco>6.50</preco>
+				<qtde>2</qtde>
+			</item>
+			<item>
+				<produto>
+					<codigo>004</codigo>
+					<descricao>Chop DAS BIER</descricao>
+				</produto>
+				<preco>9.50</preco>
+				<qtde>2</qtde>
+			</item>
+		</itens>
+	</pedido>
+	<pedido>
+		<numero>003</numero>
+		<cliente>
+			<nome>Joao Max Deggau</nome>
+			<codigo>003</codigo>
+		</cliente>
+		<itens>
+			<item>
+				<produto>
+					<codigo>992</codigo>
+					<descricao>Gelatina</descricao>
+				</produto>
+				<preco>22.25</preco>
+				<qtde>30</qtde>
+			</item>
+		</itens>
+		<itens>
+			<item>
+				<produto>
+					<codigo>993</codigo>
+					<descricao>Gelatina Vermelhinha</descricao>
+				</produto>
+				<preco>22.25</preco>
+				<qtde>32</qtde>
+			</item>
+		</itens>
+	</pedido>
+</pedidos>

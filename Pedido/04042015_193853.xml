@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pedidos>
+    <pedido>
+        <numero>1</numero>
+        <cliente>
+            <nome>Jhony</nome>
+            <codigo>1</codigo>
+        </cliente>
+        <itens>
+            <item>
+                <produto>
+                    <codigo>10</codigo>
+                    <descricao>Poderoso Picanha</descricao>
+                </produto>
+                <preco>20.0</preco>
+                <qtde>1</qtde>
+            </item>
+        </itens>
+    </pedido>
+    <pedido>
+        <numero>9</numero>
+        <cliente>
+            <nome>Adalberto</nome>
+            <codigo>5</codigo>
+        </cliente>
+        <itens>
+            <item>
+                <produto>
+                    <codigo>1</codigo>
+                    <descricao>Big Tasty</descricao>
+                </produto>
+                <preco>18.5</preco>
+                <qtde>1</qtde>
+            </item>
+            <item>
+                <produto>
+                    <codigo>2</codigo>
+                    <descricao>Coca-Cola</descricao>
+                </produto>
+                <preco>5.5</preco>
+                <qtde>2</qtde>
+            </item>
+            <item>
+                <produto>
+                    <codigo>66</codigo>
+                    <descricao>MilkShake</descricao>
+                </produto>
+                <preco>10.0</preco>
+                <qtde>3</qtde>
+            </item>
+            <item>
+                <produto>
+                    <codigo>78</codigo>
+                    <descricao>Onion Rings</descricao>
+                </produto>
+                <preco>10.0</preco>
+                <qtde>4</qtde>
+            </item>
+        </itens>
+    </pedido>
+</pedidos>

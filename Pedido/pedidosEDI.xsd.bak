@@ -1,0 +1,49 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+    <xs:element name="produto" type="Produto"/>
+	<xs:complexType name="Produto">
+	    <xs:sequence>
+		<xs:element type="xs:integer" name="codigo" minOccurs="1"/>
+		<xs:element type="xs:string" name="descricao" minOccurs="1"/>
+	    </xs:sequence>
+	</xs:complexType>
+
+    <xs:element name="item" type="Item"/>
+      <xs:complexType name="Item">
+ 	<xs:sequence>
+	    <xs:element ref="produto" minOccurs="1" maxOccurs="1"/>
+	    <xs:element type="xs:float" name="preco" minOccurs="1" maxOccurs="1"/>
+	    <xs:element type="xs:integer" name="qtde" minOccurs="1" maxOccurs="1"/>
+	</xs:sequence>
+     </xs:complexType>
+    
+    <xs:element name="itens" type="Itens"/>
+	<xs:complexType name="Itens">
+	    <xs:sequence>
+		<xs:element ref="item" maxOccurs="unbounded" minOccurs="1"/>
+	    </xs:sequence>
+	</xs:complexType>
+    
+    <xs:element name="cliente" type="Cliente"/>
+	<xs:complexType name="Cliente">
+	    <xs:sequence>
+		<xs:element type="xs:string" name="nome"/>
+		<xs:element type="xs:integer" name="codigo"/>
+	    </xs:sequence>
+	</xs:complexType>
+    
+    <xs:element name="pedido" type="Pedido"/>
+	    <xs:complexType name="Pedido">
+		<xs:sequence>
+		    <xs:element type="xs:integer" name="numero" maxOccurs="1" minOccurs="1"/>
+		    <xs:element ref="cliente" maxOccurs="1" minOccurs="1"/>
+		    <xs:element ref="itens" maxOccurs="1" minOccurs="1"/>
+		</xs:sequence>
+	    </xs:complexType>
+
+    <xs:element name="pedidos" type="Pedidos"/>
+        <xs:complexType name="Pedidos">
+            <xs:sequence>
+                <xs:element ref="pedido" maxOccurs="unbounded" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pedidos>
+    <pedido>
+        <numero>1</numero>
+        <cliente>
+            <nome>Jhony</nome>
+            <codigo>1</codigo>
+        </cliente>
+        <itens>
+            <item>
+                <produto>
+                    <codigo>10</codigo>
+                    <descricao>Poderoso Picanha</descricao>
+                </produto>
+                <preco>20.0</preco>
+                <qtde>1</qtde>
+            </item>
+        </itens>
+    </pedido>
+</pedidos>
