@@ -33,7 +33,7 @@ public class FromClassToXML {
     public static void main(String[] args) {
         try {           
             Pedidos pedidos = new Pedidos();
-            /* Pedido 1 */
+            
             Cliente cliente = getCliente(BigInteger.ONE, "Jhony");
             Pedido pedido1 = getPedido(cliente, BigInteger.ONE);
             
